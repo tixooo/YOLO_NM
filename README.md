@@ -29,3 +29,18 @@ results = model('video.mp4', save=True, conf=0.25)
 print("\n✓ Готово!")
 print("Резултатът е в: runs/detect/predict/")
 EOF
+
+
+Примери:
+
+Webcam real-time detection
+python detect.py --source 0 --weights yolov5s.pt
+
+Видео с по-висок confidence threshold
+python detect.py --source video.mp4 --weights yolov5m.pt --conf 0.5
+
+Само човек и кола
+python detect.py --source video.mp4 --weights yolov5s.pt --classes 0 2
+
+На GPU
+python detect.py --source video.mp4 --weights yolov5s.pt --device 0

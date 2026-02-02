@@ -8,6 +8,9 @@ pip install -r requirements.txt
 
 Слагаме Video.mp4 в главната директория при файловете
 
+Input video - https://drive.google.com/file/d/1mwMbmHMNwb044Idu4vG145kfWNkpUDsc/view?usp=sharing
+Output video - https://drive.google.com/file/d/15x8JL-3dsYqaCpjvCtcUb0l7FARE6l8F/view?usp=sharing
+
 използваме:
 
 python yolo_integration.py --source video.mp4
